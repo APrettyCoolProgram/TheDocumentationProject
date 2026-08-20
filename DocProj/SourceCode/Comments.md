@@ -1,23 +1,27 @@
+<!-- Last updated: 260820 -->
+
+❰ [Back to The Documentation Project](./../../README.md)
+
 <div align="center">
 
-![](../../.github/resources/images/logos/abatab-documentation-project-logo.png)
+  <img src="./../../.github/logo/DocProj-478x116.png" alt="The Documentation Project">
+
+  <br/>
+
+ <h1>Source code comments</h1>
 
 </div>
 
-***
+## C#
 
-# About Abatab Source Code Comments
-
-Abatab is heavily commented, with the intention of making sure all functionality is thoroughly detailed.
-
-# Development comments
+### Development comments
 
 ```text
 \\ Development comments contain important information that should not be removed
 \\ from the source code, and have a maximum width of 80 characters.
 ```
 
-# Narrative comments
+### Narrative comments
 
 ```text
 /* Narrative comments are enclosed with provide provide additional information or 
@@ -25,7 +29,7 @@ Abatab is heavily commented, with the intention of making sure all functionality
  */
 ```
 
-# Prefixes
+### Prefixes
 
 Comments may have the following prefixes:
 
@@ -35,16 +39,7 @@ Comments may have the following prefixes:
 - `TODO` indicates that there is something to be done.
 
 <br>
-<br>
 
 ***
 
-<div align="center">
-	<h6>
-		This document is part of the <a href="https://spectrum-health-systems.github.io/Abatab-Documentation-Project/">Abatab Documentation Project</a>
-		<br>
-		<sub style="color:DarkSlateGrey;">
-			Last updated: <b>November 6, 2023</b> [b231106.1057]
-		</sub>
-	</h6>
-</div>
+❰ [Back to The Documentation Project](./../../README.md)

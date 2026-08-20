@@ -1,6 +1,6 @@
 <!-- Last updated: 260820 -->
 
-❰ [Back to The Documentation Project](../../README.md)
+❰ [Back to The Documentation Project](./../../README.md))
 
 <div align="center">
 
@@ -40,4 +40,4 @@ Keep the documentation detailed, but concise.
 
 ***
 
-❰ [Back to The Documentation Project](../../README.md)
+❰ [Back to The Documentation Project](./../../README.md))

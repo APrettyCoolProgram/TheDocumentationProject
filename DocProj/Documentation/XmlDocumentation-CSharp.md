@@ -1,16 +1,14 @@
-[🏠︎](README.md) ❭ Documentation > C# XML Documentation
+<!-- Last updated: 260820 -->
+
+❰ [Back to The Documentation Project](./../../README.md)
 
 <div align="center">
 
-### The APCP Documentation Project
+  <img src="./../../.github/logo/DocProj-478x116.png" alt="The Documentation Project">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../../.github/logo/dark/256x256.png">
-    <source media="(prefers-color-scheme: light)" srcset="../../.github/logo/light/256x256.png">
-    <img alt="Fallback image description" src="../../.github/logo/light/256x256.png">
-  </picture>
+  <br/>
 
-# C# XML Documentation
+ <h1>XML Documentation: C#</h1>
 
 </div>
 
@@ -25,13 +23,13 @@
 | [Example of external XML documentation](#example-of-external-xml-documentation)       |
 | [Additional information](#additional-information)                                     |
 
----
+***
 
 C# source files can include structured comments that produce API documentation for the types defined in those files. The C# compiler produces an XML file that contains structured data representing the comments and the API signatures. Other tools can process that XML output to create human-readable documentation in the form of web pages or PDF files, for example.
 
 The C# language reference documents the most recently released version of the C# language. It also contains initial documentation for features in public previews for the upcoming language release.
 
----
+***
 
 ## Guidelines
 
@@ -428,6 +426,4 @@ Please review Microsoft's official documentation for C# XML documentation:
 
 ***
 
-[🏠︎](README.md) ❭ Documentation > C# XML Documentation
-
-<sub>Last updated: 260603</sub>
+❰ [Back to The Documentation Project](./../../README.md)
