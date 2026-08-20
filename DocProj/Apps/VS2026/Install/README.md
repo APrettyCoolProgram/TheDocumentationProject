@@ -279,7 +279,6 @@ Themes/color schemes/etc. are a personal choice. I use these:
 
 </details>
 
-
 <details>
 <summary>Extensions</summary>
 
@@ -314,5 +313,25 @@ Themes/color schemes/etc. are a personal choice. I use these:
 ![](Resources/Configuration-AllSettings-Extensions/XamlStyler-00.png)
 
 </details>
+
+## Customize
+
+</div>
+
+### Left
+
+![](Resources/Customize/Left-00.png)
+
+### Right
+
+![](Resources/Customize/Right-00.png)
+
+### Bottom
+
+![](Resources/Customize/Bottom-00.png)
+  
+<br/>
+
+***
 
 ❰ [Back to The Documentation Project](../README.md)
