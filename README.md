@@ -3,9 +3,9 @@
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/logo/DocProj-dark-238x57.png">
-    <source media="(prefers-color-scheme: light)" srcset=".github/logo/DocProj-light-238x57.png">
-    <img alt="Fallback image description" src=".github/logo/DocProj-light-238x57.png">
+    <source media="(prefers-color-scheme: dark)" srcset=".github/logo/DocProj-dark-476x114.png">
+    <source media="(prefers-color-scheme: light)" srcset=".github/logo/DocProj-light-476x114.png">
+    <img alt="Fallback image description" src=".github/logo/DocProj-light-476x114.png">
   </picture>
 
   <h1>Collection README.md template</h1>
