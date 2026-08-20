@@ -80,7 +80,7 @@ The main command to start a WSL distribution is" `wsl ~`.
 | `wsl --uninstall | Uninstall WSL |
 | `wsl --help` | Display help information about WSL commands |
 
-## Mount commands
+### Mount commands
 
 * `wsl --mount <DiskPath>`  
 Attach and mount a physical disk in all WSL2 distributions by replacing <DiskPath> with the directory\file path where the disk is located.
