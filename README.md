@@ -24,6 +24,10 @@
 * [Mermaid](DocProj/Documentation/Mermaid.md)
 * [XML Documentation (C#)](DocProj/Documentation/XmlDocumentation-CSharp.md)
 
+## GitHub
+
+* [Public `.github/` folder](DocProj/Github/PublicDotGithub.md)
+
 ## Repositories
 
 * [Repository template](https://github.com/APrettyCoolProgram/Repository-Template)
