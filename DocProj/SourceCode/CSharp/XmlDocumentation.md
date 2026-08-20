@@ -29,22 +29,10 @@ C# source files can include structured comments that produce API documentation f
 
 The C# language reference documents the most recently released version of the C# language. It also contains initial documentation for features in public previews for the upcoming language release.
 
-***
-
-## Guidelines
-
 > [!NOTE]
-> The majority of these guidelines are implemented in the [`xml-documentation-agent.md`](https://github.com/APrettyCoolProgram/Repository-Template/blob/main/.github/agents/xml-documentation-csharp-agent.md) file.
+> The majority of these guidelines are implemented in the [`AGENT-CSharp-XmlDocumentation.md`](https://github.com/APrettyCoolProgram/Repository-Template/blob/main/.github/agents/AGENT-CSharp-XmlDocumentation.md) file.
 
-### Required
-
-All XML documentation must:
-
-- Be well-formed XML
-- Not exceed 120 characters (where practical)
-- Use concise wording
-
-### What to document
+## Members
 
 These members must be documented:
 
@@ -55,19 +43,7 @@ These members must be documented:
 - `indexers`
 - `fields` (when explicitly requested or when they are part of the documented API)
 
-### Event Handlers
-
-Skip documentation for methods that are clearly event handlers or UI callbacks, including methods that:
-
-- match common event-handler signatures such as `(object? sender, EventArgs e)`
-- are wired directly to UI events
-- are clearly intended only as framework callbacks
-
-Do not skip a method solely because its name starts with `On`.
-
-## Documentation Tags
-
-### Rules
+## Tags
 
 - Every documented type and member must have a `<summary>` tag.
 - Every documented method and constructor parameter must have a matching `<param>` tag.
@@ -78,42 +54,7 @@ Do not skip a method solely because its name starts with `On`.
 - Use `<example>` only when the member would clearly benefit from a usage example.
 - Use `<exception>` only for exceptions explicitly thrown by the member implementation.
 
-### Formatting
-
-- Place opening and closing tags on separate lines for multi-line blocks.
-- Break lines at logical sentence boundaries.
-- Prefer `<br/>` over `<para>` when a simple line break is needed.
-- Indent `<code>` contents for readability, but do not otherwise change file formatting.
-
-### Single-line
-
-Prefer single-line form for these tags unless the content clearly requires multiple lines:
-
-- `<summary>`
-- `<typeparam>`
-- `<param>`
-- `<returns>`
-- `<value>`
-
-### Multi-line
-
-Use multi-line blocks for these tags when present:
-
-- `<remarks>`
-- `<example>`
-- `<exception>`
-
-### Inline
-
-Use these inline tags where appropriate:
-
-- `<c>` for inline code
-- `<see cref="..."/>` for symbols in the current compilation
-- `<see href="...">...</see>` for external links
-- `<paramref name="..."/>` for parameter references
-- `<typeparamref name="..."/>` for generic type parameter references
-
-### Order
+### Tag order
 
 When a tag is used, apply this order:
 
@@ -127,9 +68,45 @@ When a tag is used, apply this order:
 8. `<exception>`
 9. `<seealso>`
 
-## Text formatting
+### Single-line tags
 
-### Emphasis
+Prefer single-line form for these tags unless the content clearly requires multiple lines:
+
+- `<summary>`
+- `<typeparam>`
+- `<param>`
+- `<returns>`
+- `<value>`
+
+### Multi-line tags
+
+Use multi-line blocks for these tags when present:
+
+- `<remarks>`
+- `<example>`
+- `<exception>`
+
+### Inline Tags
+
+Use these inline tags where appropriate:
+
+- `<c>` for inline code
+- `<see cref="..."/>` for symbols in the current compilation
+- `<see href="...">...</see>` for external links
+- `<paramref name="..."/>` for parameter references
+- `<typeparamref name="..."/>` for generic type parameter references
+
+## Formatting
+
+- Be well-formed XML.
+- Escape special XML characters such as `<`, `>`, and `&` when needed.
+- Keep each line at or below 120 characters where practical.
+- Place opening and closing tags on separate lines for multi-line blocks.
+- Break lines at logical sentence boundaries.
+- Prefer `<br/>` over `<para>` when a simple line break is needed.
+- Indent `<code>` contents for readability.
+
+### Text formatting
 
 XML documentation can using the following HTML formatting tags to emphasize text:
 
@@ -148,31 +125,17 @@ Special XML characters must be escaped using the following escape sequences:
 | `&`       | `&amp;`         |
 | space     | `&nbsp;`        |
 
-### Lists
+## Lists
 
-#### Bulleted list
-
-Bulleted lists should follow these guidelines:
+Lists should follow these guidelines:
 
 - All items (including tags) should fit on a single line
 - It is recommended that item text not exceed 85 characters, and should not exceed 120 characters
 - Items should not end, or contain, periods
 - Proper indenting should be used
 
-```xml
-An introduction:
-<list type="bullet">
-<item>Bullet 1</item>
-<item>Bullet 1</item>
-<item>Bullet 1</item>
-</list>
-```
+## Tables
 
-### Numbered list
-
-TBA
-
-### Tables
 Tables should follow these guidelines:
 
 - An optional `listheader` may be used
@@ -181,56 +144,32 @@ Tables should follow these guidelines:
 - Items should not end, or contain, periods
 - Proper indenting should be used
 
-```xml
-<para>
-An introduction:
-<list type="table">
-<listheader>
-<term>Term header</term>
-<description>Description header</description>
-</listheader>
-<item>
-<term>Term 1</term>
-<description>Description 1</description>
-</item>
-<item>
-<term>Term 2</term>
-<description>Description 3</description>
-</item>
-</list>
-</para>
-```
+## Event Handlers
+
+Skip documentation for methods that are clearly event handlers or UI callbacks.
 
 ## Documenting namespaces
 
-Namespaces cannot be documented using XML documentation comments, at least not directly.
+Namespaces documentation should be in an external .xml file.
 
-Instead, you'll need to follow the instructions in the Sandcastle documentation: [Using NamespaceDoc and NamespaceGroupDoc Classes](https://ewsoftware.github.io/SHFB/html/48f5a893-acde-4e50-8c17-72b83d9c3f9d.html), which are as follows:
+The XML file should follow this structure:
 
-1. Create a new class named `NamespaceDoc` in the namespace you want to document
-2. Add the following code to the class:
-
-```csharp
-// This class is used buy Sandcastle to provide namespace-level documentation
-// for ns:%Namespace%.
-//
-// More information about this functionality can be found here:
-// 
-// Sandcastle Help File Builder Documentation
-// Using NamespaceDoc and NamespaceGroupDoc Classes
-// https://ewsoftware.github.io/SHFB/html/48f5a893-acde-4e50-8c17-72b83d9c3f9d.htm
-
-namespace %Namespace%
-{
-    /// <summary>Namespace documentation for %Namespace%.</summary>
-    [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    class NamespaceDoc
-    {
-    }
-}
+```xml
+<doc>
+   <assembly>
+       <name>YourAssemblyName</name>
+   </assembly>
+   <members>
+       <member name="N:MyNamespace">
+           <summary>
+               The <see cref="MyNamespace"/> namespace contains utility classes for data processing
+           </summary>
+       </member>
+   </members>
+</doc>
 ```
 
-Sandcastle does not support documenting namespaces using XML documentation comments in source code. Instead, namespaces should be documented using external XML documentation files.
+You'll need to include this file in your SHFB project.
 
 ## Callouts
 
@@ -313,21 +252,11 @@ public bool Save(string filePath)
 
 ## External documentation
 
-Each *namespace* has it's own external XML documentation file containing the external XML documentation for all *classes* in the namespace. The file is located in the project's `./XmlDoc/` folder with the syntax of `%namespace%_doc.xml`
-
-For example, XML documentation for `Namespace.Thing` namespace is located in the `./XmlDoc/Namespace.Thing_doc.xml` file, and contains all of the external XML documentation for all of the classes in the `Namespace.Thing` namespace.
-
 The following types of information should be included in external XML documentation files, rather than inline in source code:
 
 * Non-essential but helpful information
 * Extensive descriptions and/or examples
 * Members that are used throughout the codebase and would benefit from centralized documentation
-
-External filenames should follow this syntax:
-
-```text
-%Namespace%.%ClassName%_doc.xml
-```
 
 You can reference external XML documentation files using the `<include>` tag ::
 

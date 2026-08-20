@@ -31,29 +31,12 @@ A C# project would have a `ProjectInfo.cs` file with the following content:
 // %ProjectURL%
 // Copyright (c) A Pretty Cool Program. All rights reserved.
 // Licensed under the Apache 2.0 license.
-// -----------------------------------------------------------------------------
-// Release YY.MM -OR- Version X.y.z (Build YYMMDD)
 // =============================================================================
+
+// v0.0.0.0
 
 namespace %Namespace%;
 
-    ///<summary>Provides additional information about the Tingen Web Service.</summary>
-    ///<remarks>
-    ///  <para>
-    ///    <b>About %ProjectName%</b><br/>
-    ///    About the project.
-    ///  </para>
-    ///  <para>
-    ///    <b>Project resources</b><br/>
-    ///    <see href = "https://github.com/repository">%ProjectName% repository</see><br/>
-    ///    <see href="https://awebsite.com/">A website</see>
-    ///  </para>
-    ///  <para>
-    ///    <b>Documentation</b>
-    ///    <br/>
-    ///    <see href="https://github.com/repository/documentation">Documentation</see>
-    ///  </para>
-    ///</remarks>
     internal class ProjectInfo
     {
         // This class is only used for informational purposes, and does not contain executable code.
@@ -69,28 +52,13 @@ For example:
 // https://github.com/APrettyCoolProgram/dvn
 // Copyright (c) A Pretty Cool Program. All rights reserved.
 // Licensed under the Apache 2.0 license.
-// -----------------------------------------------------------------------------
-// Version 1.0.1 (Build 250802)
 // =============================================================================
+
+// Version 1.0.1 (Build 250802)
+
 
 namespace dvn;
 
-    ///<summary>Provides additional information about the dnv</summary>
-    ///<remarks>
-    ///  <para>
-    ///    <b>About dvn</b><br/>
-    ///    dvn is a command-line utility for managing development environments.
-    ///  </para>
-    ///  <para>
-    ///    <b>Project resources</b><br/>
-    ///    <see href = "https://github.com/APrettyCoolProgram/dvn">dvn repostitory</see><br/>
-    ///  </para>
-    ///  <para>
-    ///    <b>Documentation</b>
-    ///    <br/>
-    ///    <see href="https://github.com/APrettyCoolProgram/dvn/blob/main/README.md">dvn documentation</see>
-    ///  </para>
-    ///</remarks>
     internal class ProjectInfo
     {
         // This class is only used for informational purposes, and does not contain executable code.
