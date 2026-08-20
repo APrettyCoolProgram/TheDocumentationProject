@@ -8,10 +8,10 @@
 
 ## Applications
 
-* [Sandcastle Help File Builder](DocProj/Applications/SHFB/README.md)
-* [Scoop](DocProj/Applications/Scoop/README.md)
-* [Visual Studio 2026](DocProj/Applications/VS2026/Install/README.md)
-* [Visual Studio Code](DocProj/Applications/VSCode/README.md)
+* [Sandcastle Help File Builder](DocProj/Apps/SHFB/README.md)
+* [Scoop](DocProj/Apps/Scoop/README.md)
+* [Visual Studio 2026](DocProj/Apps/VS2026/Install/README.md)
+* [Visual Studio Code](DocProj/Apps/VSCode/README.md)
 
 ## AI
 
