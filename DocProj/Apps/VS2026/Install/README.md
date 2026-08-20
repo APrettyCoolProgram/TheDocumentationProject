@@ -14,16 +14,16 @@
 
 | CONTENTS |
 | -------- |
-| [Installing](Install.md) |
-| [Recommended Extensions](Extensions.md) |
-| [Configuring](Configure.md) |
-| [Customizing](Customize.md) |
+| [Install](#install) |
+| [Recommended Extensions](#recommended-extensions) |
+| [Configure](#configure) |
+| [Customize](#customize) |
 
 </div>
 
 ***
 
-## Installing
+## Install
 
 Installing Visual Studio 2026 is pretty straight forward, just download the [installer](https://visualstudio.microsoft.com/vs/) and follow the prompts.
 
@@ -46,7 +46,9 @@ To install an extension:
 3. Search for the extension name
 4. Click "Install"
 
-### Mads Kristensen extensions
+<details>
+<summary>Mads Kristensen extensions</summary>
+<br>
 
 [Mads Kristensen](https://www.madskristensen.net/) is a Principal Product Manager for Visual Studio, and has made some awesome extensions.
 
@@ -92,6 +94,8 @@ There are a few themes as well:
 - [ ] [GitHub Themes](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.GitHubThemes)
 - [ ] [Winter is Coming](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WinterIsComing)
 
+</details>
+
 <!--
 ### Microsoft/Microsoft DevLabs extensions
 
@@ -102,7 +106,9 @@ Official extensions and themes from Microsoft.
 - [ ] [Visual Studio 25th Anniversary Theme Pack](https://marketplace.visualstudio.com/items?itemName=idex.vsanniversarythemepack)
 -->
 
-### Other extensions
+<details>
+<summary>Other extensions</summary>
+<br>
 
 - [ ] [Claudia IDE](https://marketplace.visualstudio.com/items?itemName=kbuchi.ClaudiaIDE)
 - [ ] [Collapse Comments](https://marketplace.visualstudio.com/items?itemName=MattLaceyLtd.CollapseComments)
@@ -121,14 +127,22 @@ Official extensions and themes from Microsoft.
 - [ ] [VSColorOutput64](https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput64)
 -->
 
-### Themes
+</details>
+
+<details>
+<summary>Themes</summary>
+<br>
 
 Themes/color schemes/etc. are a personal choice. I use these:
 
 - [ ] [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.dracula)
 - [ ] [Synthwave '84 Reborn](https://marketplace.visualstudio.com/items?itemName=Fasteroid.Synthwave84VS)
 
-# Configuring Visual Studio 2026 (18.7.3)
+</details>
+
+# Configure
+
+> These instructions were used with Visual Studio 2026 (18.7.3)
 
 </div>
 
