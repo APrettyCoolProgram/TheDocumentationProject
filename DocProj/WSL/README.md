@@ -13,6 +13,7 @@
 </div>
 
 | CONTENTS |
+|----------|
 | [Install](#install) |
 | [Commands](#commands) |
 | [Troubleshooting](#troubleshooting) |
