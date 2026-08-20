@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  <img src="./../../.github/logo/DocProj-478x116.png" alt="The Documentation Project">
+  <img src="./../../../../.github/logo/DocProj-478x116.png" alt="The Documentation Project">
 
   <br/>
 
