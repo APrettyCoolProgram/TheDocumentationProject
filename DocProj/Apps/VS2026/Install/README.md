@@ -140,7 +140,7 @@ Themes/color schemes/etc. are a personal choice. I use these:
 
 </details>
 
-# Configure
+## Configure
 
 > These instructions were used with Visual Studio 2026 (18.7.3)
 
@@ -282,9 +282,8 @@ Themes/color schemes/etc. are a personal choice. I use these:
 
 <details>
 <summary>Extensions</summary>
-<br>
 
-## ClaudiaIDE
+### ClaudiaIDE
 
 **ClaudiaIDE > General**  
 ![](Resources/Configuration-AllSettings-Extensions/ClaudiaIDE-00.png)  
@@ -293,21 +292,25 @@ Themes/color schemes/etc. are a personal choice. I use these:
 **ClaudiaIDE > Light Theme**  
 ![](Resources/Configuration-AllSettings-Extensions/ClaudiaIDE-02.png)
 
-## Collapse Comments
+### Collapse Comments
 
 ![](Resources/Configuration-AllSettings-Extensions/CollapseComments-00.png)
 
-## File Explorer
+### File Explorer
+
 ![](Resources/Configuration-AllSettings-Extensions/FileExplorer-00.png)
 
-## Image Optimizer
+### Image Optimizer
+
 ![](Resources/Configuration-AllSettings-Extensions/ImageOptimizer-00.png)
 
-## Markdown Lint
+### Markdown Lint
+
 ![](Resources/Configuration-AllSettings-Extensions/MarkdownLint-00.png)
 ![](Resources/Configuration-AllSettings-Extensions/MarkdownLint-01.png)
 
-## XAML Styler
+### XAML Styler
+
 ![](Resources/Configuration-AllSettings-Extensions/XamlStyler-00.png)
 
 </details>
