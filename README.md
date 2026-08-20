@@ -5,6 +5,7 @@
   <img src="./.github/logo/DocProj-478x116.png" alt="The Documentation Project">
 
 </div>
+
 ## Applications
 
 * [Sandcastle Help File Builder](DocProj/Applications/SHFB/README.md)

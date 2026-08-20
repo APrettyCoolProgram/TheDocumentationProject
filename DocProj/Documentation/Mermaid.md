@@ -1,16 +1,14 @@
-[🏠︎](README.md) ❭ Documentation > Mermaid
+<!-- Last updated: 260820 -->
+
+❰ [Back to The Documentation Project](../README.md)
 
 <div align="center">
 
-### The APCP Documentation Project
+  <img src="./../../.github/logo/DocProj-478x116.png" alt="The Documentation Project">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../../.github/logo/dark/256x256.png">
-    <source media="(prefers-color-scheme: light)" srcset="../../.github/logo/light/256x256.png">
-    <img alt="Fallback image description" src="../../.github/logo/light/256x256.png">
-  </picture>
+  <br/>
 
-# Mermaid
+ <h1>Mermaid</h1>
 
 </div>
 
@@ -655,6 +653,4 @@ flowchart LR
 
 ***
 
-[🏠︎](README.md) ❭ Documentation > Mermaid
-
-<sub>Last updated: 260603</sub>
+❰ [Back to The Documentation Project](../README.md)

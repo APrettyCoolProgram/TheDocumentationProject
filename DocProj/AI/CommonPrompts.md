@@ -1,18 +1,14 @@
 <!-- Last updated: 260820 -->
 
-[The Documentation Project](../README.md) ❭ Common Prompts
+❰ [Back to The Documentation Project](../README.md)
 
 <div align="center">
 
-### The Documentation Project
+  <img src="./../../.github/logo/DocProj-478x116.png" alt="The Documentation Project">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../../.github/logo/dark/256x256.png">
-    <source media="(prefers-color-scheme: light)" srcset="../../.github/logo/light/256x256.png">
-    <img alt="Fallback image description" src="../../.github/logo/light/256x256.png">
-  </picture>
+  <br/>
 
-# AI: Common Prompts
+ <h1>Common LLM Prompts</h1>
 
 </div>
 
@@ -44,4 +40,4 @@ Keep the documentation detailed, but concise.
 
 ***
 
-[The Documentation Project](../README.md) ❭ Common Prompts
+❰ [Back to The Documentation Project](../README.md)
