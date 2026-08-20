@@ -1,47 +1,8 @@
-<!--
-  README.md template for collection repositories.
--->
-
-<!-- [PROJECT WARNING] =========================================================
-* Project warning
----------------------------------------------------------------------------- -->
-
-> [!WARNING]  
-> This is a warning everyone should see, or remove this section entirely.
-
-<!--
-This divider separates the this section from the rest of the README. If you are
-not using the this section, comment this divider out.
---->
----
-
-<!-- ===================================================== [PROJECT WARNING] -->
-
-<!-- [PROJECT INTRO] ===========================================================
-* Project logo
-  There are references for both a "light" and "dark" images. The dark image
-  should have a background of HEX #0d1117, to match the dark mode of GitHub.
-  The light image is the fallback.
-* Project title
-  Optional, depending on whether the project title is already clear from logo.
-* Project catchphrase!
-  Optional, if having a catchphrase fits the project.
-* Project badges
----------------------------------------------------------------------------- -->
+<!-- Last updated: 260820 -->
 
 <div align="center">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/logo/dark/repository-logo.jpg">
-    <source media="(prefers-color-scheme: light)" srcset=".github/logo/light/repository-logo.jpg">
-    <img alt="Fallback image description" src=".github/logo/light/repository-logo.jpg">
-  </picture>
-
-  <h1>Collection README.md template</h1>
-
-  ![RELEASE](https://img.shields.io/badge/Release-XX.xx-teal)&nbsp;&nbsp;
-
-  <h3>Catchrphrase goes here!</h3>
+  <img src="./.github/logo/DovProj-238x57.png" alt="The Documentation Project">
 
 </div>
 
