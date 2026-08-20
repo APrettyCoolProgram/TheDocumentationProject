@@ -2,17 +2,7 @@
 
 <div align="center">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/logo/DocProj-light-476x114.png">
-    <source media="(prefers-color-scheme: light)" srcset=".github/logo/DocProj-light-476x114.png">
-    <img alt="Fallback image description" src=".github/logo/DocProj-light-476x114.png">
-  </picture>
-
-  <h1>Collection README.md template</h1>
-
-  ![RELEASE](https://img.shields.io/badge/Release-XX.xx-teal)&nbsp;&nbsp;
-
-  <h3>Catchrphrase goes here!</h3>
+  <img src="./.github/logo/DocProj-light-478x116.png" alt="Tingen Web Service">
 
 </div>
 
