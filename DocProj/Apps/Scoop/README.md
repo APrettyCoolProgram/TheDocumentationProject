@@ -20,7 +20,7 @@
 | CONTENTS |
 |----------|
 | [Preparation](#preparation) |
-| 
+| [Windows Defender exclusions](#windows-defender-exclusions)
 | [Download installer](#download-installer) |
 | [Install](#install) |
 | [Add buckets](#add-buckets) |
