@@ -20,6 +20,7 @@
 | CONTENTS |
 |----------|
 | [Preparation](#preparation) |
+| 
 | [Download installer](#download-installer) |
 | [Install](#install) |
 | [Add buckets](#add-buckets) |
@@ -32,6 +33,19 @@
 The first command makes your device allow running the installation and management scripts. This is necessary because Windows 10 client devices restrict execution of any PowerShell scripts by default.
 
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+## Windows Defender exclusions
+
+The following folders should be added to the Windows Defender exlusions:
+
+* `apps/Nirlauncher/`
+
+To do this:
+
+1. Open **Windows Security**
+2. Click **Virus & threat protection**
+3. Click **Manage Settings**
+4. Click **Add or remove exclusions**
 
 ## Download installer
 
@@ -131,7 +145,6 @@ Make sure the required buckets are added::
 
 * `scoop install games/itch`
 
-
 ### Sysinternals bucket
 
 * `scoop install sysinternals/sysinternals-suite`
@@ -142,4 +155,4 @@ Make sure the required buckets are added::
 
 [The Documentation Project](../README.md) ❭ Scoop
 
-<sub>Last updated: 260716</sub>
+<sub>Last updated: 260826</sub>
