@@ -116,6 +116,7 @@ Make sure the required buckets are added::
 * `scoop install extras/nirlauncher`
 * `scoop install extras/notepadplusplus`
 * `scoop install extras/nvidia-profile-inspector`
+* `scoop install extras/paint.net`
 * `scoop install extras/peazip`
 * `scoop install extras/pixelorama`
 * `scoop install extras/playnite`
